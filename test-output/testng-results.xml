@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HubspotCrm" duration-ms="28200" started-at="2018-10-26T10:06:51Z" finished-at="2018-10-26T10:07:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28200" started-at="2018-10-26T10:06:51Z" finished-at="2018-10-26T10:07:19Z">
+      <class name="com.hubspotcrm.Testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="setup" is-config="true" duration-ms="9452" started-at="2018-10-26T10:06:51Z" finished-at="2018-10-26T10:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginverifyTest()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="loginverifyTest" duration-ms="676" started-at="2018-10-26T10:07:00Z" finished-at="2018-10-26T10:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginverifyTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="teardown" is-config="true" duration-ms="82" started-at="2018-10-26T10:07:01Z" finished-at="2018-10-26T10:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="setup" is-config="true" duration-ms="3965" started-at="2018-10-26T10:07:01Z" finished-at="2018-10-26T10:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyPasswordTest()[pri:2, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="verifyPasswordTest" duration-ms="618" started-at="2018-10-26T10:07:05Z" finished-at="2018-10-26T10:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="teardown" is-config="true" duration-ms="78" started-at="2018-10-26T10:07:05Z" finished-at="2018-10-26T10:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="setup" is-config="true" duration-ms="5636" started-at="2018-10-26T10:07:06Z" finished-at="2018-10-26T10:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLinksTest()[pri:3, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="verifyLinksTest" duration-ms="318" started-at="2018-10-26T10:07:11Z" finished-at="2018-10-26T10:07:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinksTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="teardown" is-config="true" duration-ms="89" started-at="2018-10-26T10:07:12Z" finished-at="2018-10-26T10:07:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="setup" is-config="true" duration-ms="5653" started-at="2018-10-26T10:07:12Z" finished-at="2018-10-26T10:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyErrormessageTest()[pri:4, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="verifyErrormessageTest" duration-ms="1477" started-at="2018-10-26T10:07:17Z" finished-at="2018-10-26T10:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrormessageTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="teardown" is-config="true" duration-ms="96" started-at="2018-10-26T10:07:19Z" finished-at="2018-10-26T10:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.hubspotcrm.Testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- HubspotCrm -->
+</testng-results>
