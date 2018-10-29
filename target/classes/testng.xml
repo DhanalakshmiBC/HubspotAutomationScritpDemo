@@ -9,9 +9,16 @@
       	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
 	</listeners>
 
-  <test name="Test">
+  <!--  <test name="loginPageTest">
     <classes>
       <class name="com.hubspotcrm.Testcases.LoginPageTest"/>
     </classes>
-  </test> <!-- Test -->
+  </test> -->
+   <test name="HomePageTest">
+    <classes>
+      <class name="com.hubspotcrm.Testcases.HomePageTest"/>
+    </classes>
+  </test>
+  
+  <!-- Test -->
 </suite> <!-- Suite -->
