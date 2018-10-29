@@ -27,29 +27,39 @@ public class HomePageTest extends TestBase{
 		loginpage=new LoginPage();
 		homepage=new HomePage();
 		homepage=loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
-		
 	}
 	
-	@Test
+	@Test(priority=1)
+	public void verifyloggedusername()
+	{
+		String user=homepage.verifyloggedusername();
+		System.out.println(user);
+		
+		Assert.assertEquals(user, "dhanalakshmi bc");
+	}
+	
+	@Test(priority=2)
 	public void verifylogourlTest()
 	{	
-		Assert.assertEquals(homepage.logoVerify(), "https://app.hubspot.com/reports-dashboard/5068902");
+		Assert.assertEquals(homepage.logoVerify(), "https://app.hubspot.com/reports-dashboard/5068902/sales");
 	}
-	@Test
+	@Test(priority=3)
 	public void verifycontacturlTest()
 	{
 		Assert.assertEquals(homepage.contactverify(), "https://app.hubspot.com/contacts/5068902/contacts/list/view/all/?");
 	}
-	@Test
+	@Test(priority=4)
 	public void verifycompaniesurlTest()
 	{
 		Assert.assertEquals(homepage.companiesurlverify(), "https://app.hubspot.com/contacts/5068902/companies");
 	}
-	@Test
+	@Test(priority=5)
 	public void verifyactivityurlTest()
 	{
 		Assert.assertEquals(homepage.activityurlverify(), "https://app.hubspot.com/activity-feed/5068902/view");
 	}
+	
+	
 	
 	@AfterMethod
 	public void tearDown()

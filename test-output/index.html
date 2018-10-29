@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-HubspotCrm">
-              <span class="suite-name border-failed">HubspotCrm</span>
+              <span class="suite-name border-passed">HubspotCrm</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-HubspotCrm" class="hide-methods failed suite-HubspotCrm"> (hide)</a> <!-- hide-methods failed suite-HubspotCrm -->
-                      <a href="#" panel-name="suite-HubspotCrm" class="show-methods failed suite-HubspotCrm"> (show)</a> <!-- show-methods failed suite-HubspotCrm -->
-                    </span>
-                    <div class="method-list-content failed suite-HubspotCrm">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HubspotCrm" title="com.hubspotcrm.Testcases.HomePageTest" hash-for-method="verifycontacturlTest">verifycontacturlTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HubspotCrm" title="com.hubspotcrm.Testcases.HomePageTest" hash-for-method="verifylogourlTest">verifylogourlTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-HubspotCrm -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -121,12 +102,7 @@
                     <div class="method-list-content passed suite-HubspotCrm">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HubspotCrm" title="com.hubspotcrm.Testcases.HomePageTest" hash-for-method="verifyactivityurlTest">verifyactivityurlTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HubspotCrm" title="com.hubspotcrm.Testcases.HomePageTest" hash-for-method="verifycompaniesurlTest">verifycompaniesurlTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-HubspotCrm" title="com.hubspotcrm.Testcases.HomePageTest" hash-for-method="verifyloggedusername">verifyloggedusername</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-HubspotCrm -->
@@ -141,44 +117,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-HubspotCrm" class="panel HubspotCrm">
-          <div class="suite-HubspotCrm-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.hubspotcrm.Testcases.HomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifycontacturlTest">
-                  </a> <!-- verifycontacturlTest -->
-                  <span class="method-name">verifycontacturlTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [https://app.hubspot.com/contacts/5068902/contacts/list/view/all/?] but found [https://app.hubspot.com/contacts/5068902/contacts]
-	at com.hubspotcrm.Testcases.HomePageTest.verifycontacturlTest(HomePageTest.java:41)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifylogourlTest">
-                  </a> <!-- verifylogourlTest -->
-                  <span class="method-name">verifylogourlTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [https://app.hubspot.com/reports-dashboard/5068902] but found [https://app.hubspot.com/reports-dashboard/5068902/view]
-	at com.hubspotcrm.Testcases.HomePageTest.verifylogourlTest(HomePageTest.java:36)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-HubspotCrm-class-failed -->
           <div class="suite-HubspotCrm-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -187,16 +125,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyactivityurlTest">
-                  </a> <!-- verifyactivityurlTest -->
-                  <span class="method-name">verifyactivityurlTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifycompaniesurlTest">
-                  </a> <!-- verifycompaniesurlTest -->
-                  <span class="method-name">verifycompaniesurlTest</span>
+                  <a name="verifyloggedusername">
+                  </a> <!-- verifyloggedusername -->
+                  <span class="method-name">verifyloggedusername</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -256,28 +187,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifycontacturlTest')
+data.setCell(0, 1, 'verifyloggedusername')
 data.setCell(0, 2, 'com.hubspotcrm.Testcases.HomePageTest')
-data.setCell(0, 3, 10552);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifycompaniesurlTest')
-data.setCell(1, 2, 'com.hubspotcrm.Testcases.HomePageTest')
-data.setCell(1, 3, 10280);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyactivityurlTest')
-data.setCell(2, 2, 'com.hubspotcrm.Testcases.HomePageTest')
-data.setCell(2, 3, 10262);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifylogourlTest')
-data.setCell(3, 2, 'com.hubspotcrm.Testcases.HomePageTest')
-data.setCell(3, 3, 8846);
+data.setCell(0, 3, 7616);
 window.suiteTableData['HubspotCrm']= { tableData: data, tableDiv: 'times-div-HubspotCrm'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-HubspotCrm">
               </div> <!-- times-div-HubspotCrm -->
             </div> <!-- times-div -->
@@ -309,52 +228,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyactivityurlTest</span>
-                <span class="method-start">7534 ms</span>
+                <span class="method-name">verifyloggedusername</span>
+                <span class="method-start">12041 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17813 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">17972 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifycompaniesurlTest</span>
-                <span class="method-start">25064 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">35352 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">35597 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifycontacturlTest</span>
-                <span class="method-start">40880 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">51461 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">51626 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifylogourlTest</span>
-                <span class="method-start">56530 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">65382 ms</span>
+                <span class="method-start">19663 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

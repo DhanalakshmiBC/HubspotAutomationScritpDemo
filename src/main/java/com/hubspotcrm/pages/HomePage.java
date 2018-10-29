@@ -32,6 +32,14 @@ public class HomePage extends TestBase  {
 	@FindBy(xpath="//a[@id='nav-secondary-activity']")
 	WebElement subactivityclick;
 	
+	@FindBy(xpath="//img[@class=' nav-avatar ']")
+	WebElement profileicon;
+	
+	@FindBy(xpath="//div[@class='user-info-name']")
+	WebElement loggedusername;
+	
+	
+	
 	public HomePage()
 	{
 		PageFactory.initElements(driver, this);
@@ -75,6 +83,12 @@ public class HomePage extends TestBase  {
 		action.moveToElement(subactivityclick).click().build().perform();
 		
 		return driver.getCurrentUrl();
+	}
+	
+	public String verifyloggedusername()
+	{
+		profileicon.click();
+		return loggedusername.getText();
 	}
 	
 	

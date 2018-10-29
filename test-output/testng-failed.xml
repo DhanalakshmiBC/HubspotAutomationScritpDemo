@@ -8,10 +8,9 @@
     <classes>
       <class name="com.hubspotcrm.Testcases.HomePageTest">
         <methods>
-          <include name="verifycontacturlTest"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verifylogourlTest"/>
+          <include name="verifyloggedusername"/>
         </methods>
       </class> <!-- com.hubspotcrm.Testcases.HomePageTest -->
     </classes>
