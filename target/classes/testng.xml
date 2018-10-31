@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="HubspotCrm" thread-count="3" parallel="tests">
+<suite name="HubspotCrm" thread-count="3" parallel="methods">
 
     <listeners>
 		<listener class-name="com.hubspotcrm.ExtentReportListner.ExtentReportListner" />
@@ -9,16 +9,16 @@
       	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
 	</listeners>
 
-  <!--  <test name="loginPageTest">
+  <test name="loginpage">
     <classes>
       <class name="com.hubspotcrm.Testcases.LoginPageTest"/>
     </classes>
-  </test> -->
-   <test name="HomePageTest">
+  </test> 
+  
+  <test name="homepage">
     <classes>
       <class name="com.hubspotcrm.Testcases.HomePageTest"/>
     </classes>
-  </test>
-  
+  </test> 
   <!-- Test -->
 </suite> <!-- Suite -->

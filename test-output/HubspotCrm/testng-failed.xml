@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [HubspotCrm]" parallel="tests">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [HubspotCrm]" parallel="methods">
   <listeners>
     <listener class-name="com.hubspotcrm.ExtentReportListner.ExtentReportListner"/>
   </listeners>
-  <test thread-count="3" name="HomePageTest(failed)" parallel="tests">
+  <test thread-count="3" name="loginpage(failed)" parallel="methods">
+    <classes>
+      <class name="com.hubspotcrm.Testcases.LoginPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="verifyLinksTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.hubspotcrm.Testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- loginpage(failed) -->
+  <test thread-count="3" name="homepage(failed)" parallel="methods">
     <classes>
       <class name="com.hubspotcrm.Testcases.HomePageTest">
         <methods>
+          <include name="verifycontacturlTest"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verifyloggedusername"/>
+          <include name="verifylogourlTest"/>
+          <include name="verifyactivityurlTest"/>
         </methods>
       </class> <!-- com.hubspotcrm.Testcases.HomePageTest -->
     </classes>
-  </test> <!-- HomePageTest(failed) -->
+  </test> <!-- homepage(failed) -->
 </suite> <!-- Failed suite [HubspotCrm] -->

@@ -35,6 +35,8 @@ public class LoginPageTest extends TestBase{
 	public void loginverifyTest()
 	{
 		loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
+		String title=loginpage.verifyLoginPageTitle();
+		System.out.println(title);
 		Assert.assertEquals(loginpage.verifyLoginPageTitle(), "HubSpot Login");
 	}
 	
@@ -46,16 +48,21 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=3)
 	public void verifyLinksTest()
 	{
-		loginpage.verifyForgotPasswordLink();
+		
 		System.out.println("Forgot Password Link is displayed:"+loginpage.verifyForgotPasswordLink());
-		loginpage.verifyLoginPageTitle();
-		System.out.println("LoginPage title is displayed:"+loginpage.verifyLoginPageTitle());
-		loginpage.verifysignupLink();
+		Assert.assertTrue(loginpage.verifyForgotPasswordLink());
+		
 		System.out.println("Signup link is displayed:"+loginpage.verifysignupLink());
-		loginpage.verifyshowpasswordLink();
+	    Assert.assertTrue(loginpage.verifysignupLink());
+	    
 		System.out.println("show password link:"+loginpage.verifyshowpasswordLink());
-		loginpage.verifycheckBox();
+	    Assert.assertTrue(loginpage.verifyshowpasswordLink());
+	    
 		System.out.println("check box is selected:"+loginpage.verifycheckBox());
+		Assert.assertTrue(loginpage.verifycheckBox());
+		
+		System.out.println("check box is selected:"+loginpage.verifyprivacyPolicy());
+		Assert.assertTrue(loginpage.verifyprivacyPolicy());
 	}
 	
 	@Test(priority=4)
