@@ -9,8 +9,11 @@
       <class name="com.hubspotcrm.Testcases.LoginPageTest">
         <methods>
           <include name="teardown"/>
+          <include name="loginverifyTest"/>
           <include name="verifyLinksTest"/>
           <include name="setup"/>
+          <include name="verifyPasswordTest"/>
+          <include name="verifyErrormessageTest"/>
         </methods>
       </class> <!-- com.hubspotcrm.Testcases.LoginPageTest -->
     </classes>
@@ -23,7 +26,9 @@
           <include name="tearDown"/>
           <include name="setup"/>
           <include name="verifylogourlTest"/>
+          <include name="verifyloggedusername"/>
           <include name="verifyactivityurlTest"/>
+          <include name="verifycompaniesurlTest"/>
         </methods>
       </class> <!-- com.hubspotcrm.Testcases.HomePageTest -->
     </classes>

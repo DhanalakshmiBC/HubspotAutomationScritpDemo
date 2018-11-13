@@ -22,7 +22,9 @@ public class TestBase {
 		try
 		{
 			prop=new Properties();
-			FileInputStream fs=new FileInputStream("/Users/deepika/Desktop/My_Project/Hubspot_Demo/src/main/java/com/hubspotcrm/config/config.properties");
+			FileInputStream fs=new FileInputStream("../HubspotAutomationScritpDemo/src/main/java/com/hubspotcrm/config/config.properties");
+			
+			//HubspotAutomationScritpDemo/src/main/java/com/hubspotcrm/config/config.properties
 		    prop.load(fs);
 		}
 		catch(FileNotFoundException e)
