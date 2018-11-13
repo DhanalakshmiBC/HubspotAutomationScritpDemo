@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="4" ignored="0" total="9" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="HubspotCrm" duration-ms="106204" started-at="2018-10-29T12:00:38Z" finished-at="2018-10-29T12:02:24Z">
+  <suite name="HubspotCrm" duration-ms="133712" started-at="2018-11-13T05:37:15Z" finished-at="2018-11-13T05:39:29Z">
     <groups>
     </groups>
-    <test name="loginpage" duration-ms="25949" started-at="2018-10-29T12:00:38Z" finished-at="2018-10-29T12:01:04Z">
+    <test name="loginpage" duration-ms="21305" started-at="2018-11-13T05:37:15Z" finished-at="2018-11-13T05:37:36Z">
       <class name="com.hubspotcrm.Testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="setup" is-config="true" duration-ms="8109" started-at="2018-10-29T12:00:38Z" finished-at="2018-10-29T12:00:46Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="setup" is-config="true" duration-ms="6709" started-at="2018-11-13T05:37:15Z" finished-at="2018-11-13T05:37:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginverifyTest()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="loginverifyTest" duration-ms="1056" started-at="2018-10-29T12:00:46Z" finished-at="2018-10-29T12:00:47Z">
+        <test-method status="PASS" signature="loginverifyTest()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="loginverifyTest" duration-ms="766" started-at="2018-11-13T05:37:22Z" finished-at="2018-11-13T05:37:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginverifyTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="teardown" is-config="true" duration-ms="103" started-at="2018-10-29T12:00:47Z" finished-at="2018-10-29T12:00:48Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="teardown" is-config="true" duration-ms="96" started-at="2018-11-13T05:37:23Z" finished-at="2018-11-13T05:37:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="setup" is-config="true" duration-ms="3809" started-at="2018-10-29T12:00:48Z" finished-at="2018-10-29T12:00:51Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="setup" is-config="true" duration-ms="3707" started-at="2018-11-13T05:37:23Z" finished-at="2018-11-13T05:37:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyPasswordTest()[pri:2, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="verifyPasswordTest" duration-ms="625" started-at="2018-10-29T12:00:51Z" finished-at="2018-10-29T12:00:52Z">
+        <test-method status="PASS" signature="verifyPasswordTest()[pri:2, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="verifyPasswordTest" duration-ms="730" started-at="2018-11-13T05:37:26Z" finished-at="2018-11-13T05:37:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPasswordTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="teardown" is-config="true" duration-ms="82" started-at="2018-10-29T12:00:52Z" finished-at="2018-10-29T12:00:52Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="teardown" is-config="true" duration-ms="146" started-at="2018-11-13T05:37:27Z" finished-at="2018-11-13T05:37:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="setup" is-config="true" duration-ms="4797" started-at="2018-10-29T12:00:52Z" finished-at="2018-10-29T12:00:57Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="setup" is-config="true" duration-ms="3700" started-at="2018-11-13T05:37:27Z" finished-at="2018-11-13T05:37:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifyLinksTest()[pri:3, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="verifyLinksTest" duration-ms="402" started-at="2018-10-29T12:00:57Z" finished-at="2018-10-29T12:00:57Z">
+        <test-method status="FAIL" signature="verifyLinksTest()[pri:3, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="verifyLinksTest" duration-ms="376" started-at="2018-11-13T05:37:31Z" finished-at="2018-11-13T05:37:31Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -57,52 +57,64 @@ at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLinksTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="teardown" is-config="true" duration-ms="120" started-at="2018-10-29T12:00:57Z" finished-at="2018-10-29T12:00:57Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="teardown" is-config="true" duration-ms="135" started-at="2018-11-13T05:37:31Z" finished-at="2018-11-13T05:37:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="setup" is-config="true" duration-ms="4889" started-at="2018-10-29T12:00:57Z" finished-at="2018-10-29T12:01:02Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="setup" is-config="true" duration-ms="3315" started-at="2018-11-13T05:37:32Z" finished-at="2018-11-13T05:37:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyErrormessageTest()[pri:4, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="verifyErrormessageTest" duration-ms="1756" started-at="2018-10-29T12:01:02Z" finished-at="2018-10-29T12:01:04Z">
+        <test-method status="PASS" signature="verifyErrormessageTest()[pri:4, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="verifyErrormessageTest" duration-ms="1448" started-at="2018-11-13T05:37:35Z" finished-at="2018-11-13T05:37:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyErrormessageTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="teardown" is-config="true" duration-ms="104" started-at="2018-10-29T12:01:04Z" finished-at="2018-10-29T12:01:04Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hubspotcrm.Testcases.LoginPageTest@31ef45e3]" name="teardown" is-config="true" duration-ms="100" started-at="2018-11-13T05:37:36Z" finished-at="2018-11-13T05:37:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.hubspotcrm.Testcases.LoginPageTest -->
     </test> <!-- loginpage -->
-    <test name="homepage" duration-ms="75140" started-at="2018-10-29T12:01:09Z" finished-at="2018-10-29T12:02:24Z">
+    <test name="homepage" duration-ms="107299" started-at="2018-11-13T05:37:42Z" finished-at="2018-11-13T05:39:29Z">
       <class name="com.hubspotcrm.Testcases.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="setup" is-config="true" duration-ms="6052" started-at="2018-10-29T12:01:09Z" finished-at="2018-10-29T12:01:15Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="setup" is-config="true" duration-ms="4060" started-at="2018-11-13T05:37:42Z" finished-at="2018-11-13T05:37:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyloggedusername()[pri:1, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="verifyloggedusername" duration-ms="6847" started-at="2018-10-29T12:01:15Z" finished-at="2018-10-29T12:01:22Z">
+        <test-method status="PASS" signature="verifyloggedusername()[pri:1, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="verifyloggedusername" duration-ms="11418" started-at="2018-11-13T05:37:46Z" finished-at="2018-11-13T05:37:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloggedusername -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="tearDown" is-config="true" duration-ms="113" started-at="2018-10-29T12:01:22Z" finished-at="2018-10-29T12:01:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="tearDown" is-config="true" duration-ms="109" started-at="2018-11-13T05:37:57Z" finished-at="2018-11-13T05:37:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="setup" is-config="true" duration-ms="5004" started-at="2018-10-29T12:01:22Z" finished-at="2018-10-29T12:01:27Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="setup" is-config="true" duration-ms="4698" started-at="2018-11-13T05:37:57Z" finished-at="2018-11-13T05:38:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifylogourlTest()[pri:2, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="verifylogourlTest" duration-ms="10838" started-at="2018-10-29T12:01:27Z" finished-at="2018-10-29T12:01:38Z">
+        <test-method status="FAIL" signature="verifylogourlTest()[pri:2, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="verifylogourlTest" duration-ms="10216" started-at="2018-11-13T05:38:02Z" finished-at="2018-11-13T05:38:12Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://app.hubspot.com/reports-dashboard/5068902/sales] but found [https://app.hubspot.com/reports-dashboard/5068902/view]]]>
@@ -126,24 +138,36 @@ at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogourlTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="tearDown" is-config="true" duration-ms="197" started-at="2018-10-29T12:01:38Z" finished-at="2018-10-29T12:01:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="tearDown" is-config="true" duration-ms="144" started-at="2018-11-13T05:38:12Z" finished-at="2018-11-13T05:38:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="setup" is-config="true" duration-ms="5072" started-at="2018-10-29T12:01:38Z" finished-at="2018-10-29T12:01:43Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="setup" is-config="true" duration-ms="4498" started-at="2018-11-13T05:38:12Z" finished-at="2018-11-13T05:38:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifycontacturlTest()[pri:3, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="verifycontacturlTest" duration-ms="8134" started-at="2018-10-29T12:01:43Z" finished-at="2018-10-29T12:01:52Z">
+        <test-method status="FAIL" signature="verifycontacturlTest()[pri:3, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="verifycontacturlTest" duration-ms="14049" started-at="2018-11-13T05:38:17Z" finished-at="2018-11-13T05:38:31Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://app.hubspot.com/contacts/5068902/contacts/list/view/all/?] but found [https://app.hubspot.com/contacts/5068902/contacts]]]>
@@ -167,42 +191,54 @@ at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifycontacturlTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="tearDown" is-config="true" duration-ms="84" started-at="2018-10-29T12:01:52Z" finished-at="2018-10-29T12:01:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="tearDown" is-config="true" duration-ms="305" started-at="2018-11-13T05:38:31Z" finished-at="2018-11-13T05:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="setup" is-config="true" duration-ms="6728" started-at="2018-10-29T12:01:52Z" finished-at="2018-10-29T12:01:58Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="setup" is-config="true" duration-ms="7306" started-at="2018-11-13T05:38:31Z" finished-at="2018-11-13T05:38:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifycompaniesurlTest()[pri:4, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="verifycompaniesurlTest" duration-ms="12038" started-at="2018-10-29T12:01:58Z" finished-at="2018-10-29T12:02:10Z">
+        <test-method status="PASS" signature="verifycompaniesurlTest()[pri:4, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="verifycompaniesurlTest" duration-ms="11623" started-at="2018-11-13T05:38:38Z" finished-at="2018-11-13T05:38:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifycompaniesurlTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="tearDown" is-config="true" duration-ms="206" started-at="2018-10-29T12:02:10Z" finished-at="2018-10-29T12:02:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="tearDown" is-config="true" duration-ms="226" started-at="2018-11-13T05:38:50Z" finished-at="2018-11-13T05:38:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="setup" is-config="true" duration-ms="5856" started-at="2018-10-29T12:02:11Z" finished-at="2018-10-29T12:02:17Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="setup" is-config="true" duration-ms="21743" started-at="2018-11-13T05:38:50Z" finished-at="2018-11-13T05:39:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifyactivityurlTest()[pri:5, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="verifyactivityurlTest" duration-ms="7726" started-at="2018-10-29T12:02:17Z" finished-at="2018-10-29T12:02:24Z">
+        <test-method status="FAIL" signature="verifyactivityurlTest()[pri:5, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="verifyactivityurlTest" duration-ms="16714" started-at="2018-11-13T05:39:12Z" finished-at="2018-11-13T05:39:29Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [https://app.hubspot.com/activity-feed/5068902/view] but found [https://app.hubspot.com/activity-feed/5068902]]]>
+              <![CDATA[expected [https://app.hubspot.com/activity-feed/5068902/view] but found [https://app.hubspot.com/reports-dashboard/5068902/sales]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [https://app.hubspot.com/activity-feed/5068902/view] but found [https://app.hubspot.com/activity-feed/5068902]
+              <![CDATA[java.lang.AssertionError: expected [https://app.hubspot.com/activity-feed/5068902/view] but found [https://app.hubspot.com/reports-dashboard/5068902/sales]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -220,16 +256,28 @@ at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyactivityurlTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="tearDown" is-config="true" duration-ms="154" started-at="2018-10-29T12:02:24Z" finished-at="2018-10-29T12:02:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspotcrm.Testcases.HomePageTest@4b952a2d]" name="tearDown" is-config="true" duration-ms="114" started-at="2018-11-13T05:39:29Z" finished-at="2018-11-13T05:39:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 29 17:31:09 IST 2018</td>
+<td>Started on:</td><td>Tue Nov 13 11:07:42 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>75 seconds (75140 ms)</td>
+<tr><td>Total time:</td><td>107 seconds (107299 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,10 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.hubspotcrm.Testcases.HomePageTest.verifyactivityurlTest()'><b>verifyactivityurlTest</b><br>Test class: com.hubspotcrm.Testcases.HomePageTest</td>
-<td><div><pre>java.lang.AssertionError: expected [https://app.hubspot.com/activity-feed/5068902/view] but found [https://app.hubspot.com/activity-feed/5068902]
+<td><div><pre>java.lang.AssertionError: expected [https://app.hubspot.com/activity-feed/5068902/view] but found [https://app.hubspot.com/reports-dashboard/5068902/sales]
 	at com.hubspotcrm.Testcases.HomePageTest.verifyactivityurlTest(HomePageTest.java:59)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1767511960", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1767511960'><pre>java.lang.AssertionError: expected [https://app.hubspot.com/activity-feed/5068902/view] but found [https://app.hubspot.com/activity-feed/5068902]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1755588291", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1755588291'><pre>java.lang.AssertionError: expected [https://app.hubspot.com/activity-feed/5068902/view] but found [https://app.hubspot.com/reports-dashboard/5068902/sales]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -100,21 +97,30 @@ function toggleAllBoxes() {
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>7</td>
+<td>16</td>
 <td>com.hubspotcrm.Testcases.HomePageTest@4b952a2d</td></tr>
 <tr>
 <td title='com.hubspotcrm.Testcases.HomePageTest.verifycontacturlTest()'><b>verifycontacturlTest</b><br>Test class: com.hubspotcrm.Testcases.HomePageTest</td>
 <td><div><pre>java.lang.AssertionError: expected [https://app.hubspot.com/contacts/5068902/contacts/list/view/all/?] but found [https://app.hubspot.com/contacts/5068902/contacts]
 	at com.hubspotcrm.Testcases.HomePageTest.verifycontacturlTest(HomePageTest.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace226886880", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace226886880'><pre>java.lang.AssertionError: expected [https://app.hubspot.com/contacts/5068902/contacts/list/view/all/?] but found [https://app.hubspot.com/contacts/5068902/contacts]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace940369315", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace940369315'><pre>java.lang.AssertionError: expected [https://app.hubspot.com/contacts/5068902/contacts/list/view/all/?] but found [https://app.hubspot.com/contacts/5068902/contacts]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -132,21 +138,30 @@ function toggleAllBoxes() {
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>8</td>
+<td>14</td>
 <td>com.hubspotcrm.Testcases.HomePageTest@4b952a2d</td></tr>
 <tr>
 <td title='com.hubspotcrm.Testcases.HomePageTest.verifylogourlTest()'><b>verifylogourlTest</b><br>Test class: com.hubspotcrm.Testcases.HomePageTest</td>
 <td><div><pre>java.lang.AssertionError: expected [https://app.hubspot.com/reports-dashboard/5068902/sales] but found [https://app.hubspot.com/reports-dashboard/5068902/view]
 	at com.hubspotcrm.Testcases.HomePageTest.verifylogourlTest(HomePageTest.java:44)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace73351628", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace73351628'><pre>java.lang.AssertionError: expected [https://app.hubspot.com/reports-dashboard/5068902/sales] but found [https://app.hubspot.com/reports-dashboard/5068902/view]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2066533285", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2066533285'><pre>java.lang.AssertionError: expected [https://app.hubspot.com/reports-dashboard/5068902/sales] but found [https://app.hubspot.com/reports-dashboard/5068902/view]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -164,9 +179,21 @@ function toggleAllBoxes() {
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>10</td>
 <td>com.hubspotcrm.Testcases.HomePageTest@4b952a2d</td></tr>
@@ -181,12 +208,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.hubspotcrm.Testcases.HomePageTest.verifycompaniesurlTest()'><b>verifycompaniesurlTest</b><br>Test class: com.hubspotcrm.Testcases.HomePageTest</td>
 <td></td>
-<td>12</td>
+<td>11</td>
 <td>com.hubspotcrm.Testcases.HomePageTest@4b952a2d</td></tr>
 <tr>
 <td title='com.hubspotcrm.Testcases.HomePageTest.verifyloggedusername()'><b>verifyloggedusername</b><br>Test class: com.hubspotcrm.Testcases.HomePageTest</td>
 <td></td>
-<td>6</td>
+<td>11</td>
 <td>com.hubspotcrm.Testcases.HomePageTest@4b952a2d</td></tr>
 </table><p>
 </body>

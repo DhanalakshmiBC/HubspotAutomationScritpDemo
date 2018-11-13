@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [HubspotCrm]" parallel="methods">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [HubspotCrm]">
   <listeners>
     <listener class-name="com.hubspotcrm.ExtentReportListner.ExtentReportListner"/>
   </listeners>
-  <test thread-count="3" name="loginpage(failed)" parallel="methods">
+  <test thread-count="3" name="loginpage(failed)">
     <classes>
       <class name="com.hubspotcrm.Testcases.LoginPageTest">
         <methods>
@@ -15,7 +15,7 @@
       </class> <!-- com.hubspotcrm.Testcases.LoginPageTest -->
     </classes>
   </test> <!-- loginpage(failed) -->
-  <test thread-count="3" name="homepage(failed)" parallel="methods">
+  <test thread-count="3" name="homepage(failed)">
     <classes>
       <class name="com.hubspotcrm.Testcases.HomePageTest">
         <methods>

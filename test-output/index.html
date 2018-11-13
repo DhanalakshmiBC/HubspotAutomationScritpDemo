@@ -179,10 +179,7 @@
                   <span class="method-name">verifyLinksTest</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
 	at com.hubspotcrm.Testcases.LoginPageTest.verifyLinksTest(LoginPageTest.java:62)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 14 stack frames
+... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -199,12 +196,9 @@
                   <a name="verifyactivityurlTest">
                   </a> <!-- verifyactivityurlTest -->
                   <span class="method-name">verifyactivityurlTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [https://app.hubspot.com/activity-feed/5068902/view] but found [https://app.hubspot.com/activity-feed/5068902]
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://app.hubspot.com/activity-feed/5068902/view] but found [https://app.hubspot.com/reports-dashboard/5068902/sales]
 	at com.hubspotcrm.Testcases.HomePageTest.verifyactivityurlTest(HomePageTest.java:59)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 16 stack frames
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -215,10 +209,7 @@
                   <span class="method-name">verifycontacturlTest</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [https://app.hubspot.com/contacts/5068902/contacts/list/view/all/?] but found [https://app.hubspot.com/contacts/5068902/contacts]
 	at com.hubspotcrm.Testcases.HomePageTest.verifycontacturlTest(HomePageTest.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 16 stack frames
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -229,10 +220,7 @@
                   <span class="method-name">verifylogourlTest</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [https://app.hubspot.com/reports-dashboard/5068902/sales] but found [https://app.hubspot.com/reports-dashboard/5068902/view]
 	at com.hubspotcrm.Testcases.HomePageTest.verifylogourlTest(HomePageTest.java:44)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 16 stack frames
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -298,16 +286,16 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;HubspotCrm&quot; parallel=&quot;methods&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;HubspotCrm&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.hubspotcrm.ExtentReportListner.ExtentReportListner&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;3&quot; name=&quot;loginpage&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;loginpage&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.hubspotcrm.Testcases.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- loginpage --&gt;
-  &lt;test thread-count=&quot;3&quot; name=&quot;homepage&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;homepage&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.hubspotcrm.Testcases.HomePageTest&quot;/&gt;
     &lt;/classes&gt;
@@ -354,46 +342,46 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifycompaniesurlTest')
+data.setCell(0, 1, 'verifyactivityurlTest')
 data.setCell(0, 2, 'com.hubspotcrm.Testcases.HomePageTest')
-data.setCell(0, 3, 12038);
+data.setCell(0, 3, 16714);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifylogourlTest')
+data.setCell(1, 1, 'verifycontacturlTest')
 data.setCell(1, 2, 'com.hubspotcrm.Testcases.HomePageTest')
-data.setCell(1, 3, 10838);
+data.setCell(1, 3, 14049);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifycontacturlTest')
+data.setCell(2, 1, 'verifycompaniesurlTest')
 data.setCell(2, 2, 'com.hubspotcrm.Testcases.HomePageTest')
-data.setCell(2, 3, 8134);
+data.setCell(2, 3, 11623);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyactivityurlTest')
+data.setCell(3, 1, 'verifyloggedusername')
 data.setCell(3, 2, 'com.hubspotcrm.Testcases.HomePageTest')
-data.setCell(3, 3, 7726);
+data.setCell(3, 3, 11418);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyloggedusername')
+data.setCell(4, 1, 'verifylogourlTest')
 data.setCell(4, 2, 'com.hubspotcrm.Testcases.HomePageTest')
-data.setCell(4, 3, 6847);
+data.setCell(4, 3, 10216);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'verifyErrormessageTest')
 data.setCell(5, 2, 'com.hubspotcrm.Testcases.LoginPageTest')
-data.setCell(5, 3, 1756);
+data.setCell(5, 3, 1448);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'loginverifyTest')
 data.setCell(6, 2, 'com.hubspotcrm.Testcases.LoginPageTest')
-data.setCell(6, 3, 1056);
+data.setCell(6, 3, 766);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'verifyPasswordTest')
 data.setCell(7, 2, 'com.hubspotcrm.Testcases.LoginPageTest')
-data.setCell(7, 3, 625);
+data.setCell(7, 3, 730);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'verifyLinksTest')
 data.setCell(8, 2, 'com.hubspotcrm.Testcases.LoginPageTest')
-data.setCell(8, 3, 402);
+data.setCell(8, 3, 376);
 window.suiteTableData['HubspotCrm']= { tableData: data, tableDiv: 'times-div-HubspotCrm'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-HubspotCrm">
               </div> <!-- times-div-HubspotCrm -->
             </div> <!-- times-div -->
@@ -426,118 +414,118 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginverifyTest</span>
-                <span class="method-start">8110 ms</span>
+                <span class="method-start">6710 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">9170 ms</span>
+                <span class="method-start">7478 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">9275 ms</span>
+                <span class="method-start">7577 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPasswordTest</span>
-                <span class="method-start">13084 ms</span>
+                <span class="method-start">11284 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">13710 ms</span>
+                <span class="method-start">12016 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">13793 ms</span>
+                <span class="method-start">12163 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyLinksTest</span>
-                <span class="method-start">18590 ms</span>
+                <span class="method-start">15863 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">19000 ms</span>
+                <span class="method-start">16244 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">19121 ms</span>
+                <span class="method-start">16380 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyErrormessageTest</span>
-                <span class="method-start">24010 ms</span>
+                <span class="method-start">19695 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">25767 ms</span>
+                <span class="method-start">21145 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hubspotcrm.Testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">30991 ms</span>
+                <span class="method-start">26354 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyloggedusername</span>
-                <span class="method-start">37044 ms</span>
+                <span class="method-start">30414 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">43894 ms</span>
+                <span class="method-start">41833 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">44008 ms</span>
+                <span class="method-start">41943 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifylogourlTest</span>
-                <span class="method-start">49012 ms</span>
+                <span class="method-start">46641 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">59860 ms</span>
+                <span class="method-start">56858 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">60068 ms</span>
+                <span class="method-start">57003 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifycontacturlTest</span>
-                <span class="method-start">65140 ms</span>
+                <span class="method-start">61501 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">73275 ms</span>
+                <span class="method-start">75585 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">73360 ms</span>
+                <span class="method-start">75892 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifycompaniesurlTest</span>
-                <span class="method-start">80088 ms</span>
+                <span class="method-start">83200 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">92160 ms</span>
+                <span class="method-start">94837 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">92368 ms</span>
+                <span class="method-start">95066 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyactivityurlTest</span>
-                <span class="method-start">98224 ms</span>
+                <span class="method-start">116810 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">105966 ms</span>
+                <span class="method-start">133531 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
